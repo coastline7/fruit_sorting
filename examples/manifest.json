@@ -1,0 +1,98 @@
+[
+  {
+    "id": "apple_bad_1.jpg",
+    "fruit": "Яблоко",
+    "quality": "С дефектами",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Apple_Bad/IMG20200728175913.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "apple_bad_2.jpg",
+    "fruit": "Яблоко",
+    "quality": "С дефектами",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Apple_Bad/IMG20200728175946.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "apple_good_1.jpg",
+    "fruit": "Яблоко",
+    "quality": "Без дефектов",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Apple_Good/20190809_115513.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "apple_good_2.jpg",
+    "fruit": "Яблоко",
+    "quality": "Без дефектов",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Apple_Good/20190809_115613.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "banana_bad_1.jpg",
+    "fruit": "Банан",
+    "quality": "С дефектами",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Banana_Bad/IMG20200729190307.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "banana_bad_2.jpg",
+    "fruit": "Банан",
+    "quality": "С дефектами",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Banana_Bad/IMG20200729190318.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "banana_good_1.jpg",
+    "fruit": "Банан",
+    "quality": "Без дефектов",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Banana_Good/IMG20200729190220_01.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "banana_good_2.jpg",
+    "fruit": "Банан",
+    "quality": "Без дефектов",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Banana_Good/IMG20200729190222.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "lime_bad_1.jpg",
+    "fruit": "Лайм",
+    "quality": "С дефектами",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Lime_Bad/IMG20200728190810.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "lime_bad_2.jpg",
+    "fruit": "Лайм",
+    "quality": "С дефектами",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Lime_Bad/IMG20200728190824.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "lime_good_1.jpg",
+    "fruit": "Лайм",
+    "quality": "Без дефектов",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Lime_Good/IMG20200728131556.jpg",
+    "kind": "benchmark"
+  },
+  {
+    "id": "lime_good_2.jpg",
+    "fruit": "Лайм",
+    "quality": "Без дефектов",
+    "source": "https://zenodo.org/records/17609211",
+    "original": "Lime_Good/IMG20200728131605.jpg",
+    "kind": "benchmark"
+  }
+]
