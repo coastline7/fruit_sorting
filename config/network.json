@@ -1,0 +1,51 @@
+{
+  "architecture": "mobilenet_v3_small",
+  "initial_weights": "IMAGENET1K_V1",
+  "seed": 42,
+  "image_size": [
+    224,
+    224
+  ],
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "classes": [
+    "Apple_Bad",
+    "Apple_Good",
+    "Banana_Bad",
+    "Banana_Good",
+    "Lime_Bad",
+    "Lime_Good"
+  ],
+  "batch_size": 64,
+  "maximum_epochs": 15,
+  "patience": 4,
+  "minimum_improvement": 0.0001,
+  "feature_learning_rate": 0.0001,
+  "classifier_learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "best_epoch": 5,
+  "quality_threshold": 0.5,
+  "manifest_sha256": "97231aa984c7a2637ce49e438c2d7e430b1291f03ec72efd0e1896969cc8a1ba",
+  "training_seconds": 268.3655174299997,
+  "torch_version": "2.14.1+cu130",
+  "torchvision_version": "0.29.1+cu130",
+  "validation_metrics": {
+    "joint_accuracy": 0.9954819277108434,
+    "fruit_accuracy": 0.9977409638554217,
+    "quality_accuracy": 0.9962349397590361,
+    "quality_balanced_accuracy": 0.9962393395028126,
+    "defect_f1": 0.9962149886449659,
+    "defect_roc_auc": 0.9999863908546544,
+    "missed_defect_share": 0.0030303030303030303,
+    "false_rejection_share": 0.004491017964071856,
+    "manual_review_share": 0.0
+  }
+}

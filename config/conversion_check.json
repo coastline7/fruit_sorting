@@ -1,0 +1,58 @@
+{
+  "training_performed": false,
+  "classification_images": 12,
+  "classification_maximum_logit_difference": 3.9458274841308594e-05,
+  "classification_decision_checks": [
+    {
+      "mode": "neural",
+      "counts": {
+        "accepted": 6,
+        "rejected": 6,
+        "review": 0
+      },
+      "matching_decisions": true
+    },
+    {
+      "mode": "batch",
+      "counts": {
+        "accepted": 5,
+        "rejected": 6,
+        "review": 1
+      },
+      "matching_decisions": true
+    }
+  ],
+  "detection_checks": [
+    {
+      "image": 0,
+      "regions": 2,
+      "maximum_normalized_coordinate_difference": 1.7881393432617188e-07
+    },
+    {
+      "image": 1,
+      "regions": 2,
+      "maximum_normalized_coordinate_difference": 1.4901161193847656e-07
+    },
+    {
+      "image": 2,
+      "regions": 11,
+      "maximum_normalized_coordinate_difference": 1.4901161193847656e-07
+    },
+    {
+      "image": 3,
+      "regions": 5,
+      "maximum_normalized_coordinate_difference": 5.960464477539063e-08
+    },
+    {
+      "image": 4,
+      "regions": 3,
+      "maximum_normalized_coordinate_difference": 5.960464477539063e-08
+    },
+    {
+      "image": 5,
+      "regions": 1,
+      "maximum_normalized_coordinate_difference": 7.450580596923828e-08
+    }
+  ],
+  "note": "Сравнение выполнено на 12 встроенных фотографиях и 6 вариантах изображений для обнаружения. Это проверка преобразования, не новая оценка точности."
+}

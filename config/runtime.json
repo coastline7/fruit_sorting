@@ -1,0 +1,21 @@
+{
+  "classification_format": "onnx",
+  "classification_input": [
+    1,
+    3,
+    224,
+    224
+  ],
+  "detector_format": "onnx",
+  "detector_image_size": 960,
+  "detector_dynamic_shape": true,
+  "training_performed": false,
+  "source_sha256": {
+    "apple_regions_best.pt": "0ca72bd57508a294f29dc59091e6c859623fa5c5740d73c1eb15b6bb692c1ed9",
+    "neural_sorting_best.pt": "acc6e263fece277b86696522d2aea2ba491c85a510a8f855f14003bfde1243c8"
+  },
+  "exported_sha256": {
+    "apple_regions.onnx": "e57e59de54cdd73219e51d11099d0acab5e9d0169085df3a43aca65f6eb55f9c",
+    "sorting.onnx": "2d7c4f8b78957e794cbe1da23478a74dc066a59c1a6309f62e9d30d058f8de68"
+  }
+}

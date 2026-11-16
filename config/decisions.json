@@ -1,0 +1,63 @@
+{
+  "manifest_sha256": "97231aa984c7a2637ce49e438c2d7e430b1291f03ec72efd0e1896969cc8a1ba",
+  "temperature": 0.8988515414313499,
+  "review_limit": 0.1,
+  "miss_cost": 10.0,
+  "reject_cost": 1.0,
+  "review_cost": 0.2,
+  "policies": {
+    "baseline": {
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "use_review": false,
+      "instability_weight": 0.0
+    },
+    "neural": {
+      "thresholds": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "use_review": false,
+      "instability_weight": 0.0
+    },
+    "risk_global": {
+      "thresholds": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "use_review": true,
+      "instability_weight": 0.0
+    },
+    "risk_fruit": {
+      "thresholds": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "use_review": true,
+      "instability_weight": 0.0
+    },
+    "risk_stable": {
+      "thresholds": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "use_review": true,
+      "instability_weight": 0.0
+    }
+  },
+  "test_conditions": {
+    "original": "Исходные фотографии",
+    "darker": "Яркость уменьшена на 25 процентов",
+    "brighter": "Яркость увеличена на 25 процентов",
+    "blurred": "Небольшое размытие"
+  },
+  "manual_outcomes_simulated": false,
+  "validation_previously_used_for_model_selection": true
+}
